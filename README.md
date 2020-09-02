@@ -1,1 +1,2 @@
 # ajmiam.github.io
+This is a utility designed to generate a random table of level-up skills for the various classes in the game Fire Emblem Fates.  Players can modify their save data using Powersaves or modify their ROM according to the results displayed in the table in order to play the game with randomized level-up skills.  (This utility does not have the capacity to perform any save editing or ROM hacking on its own.)
