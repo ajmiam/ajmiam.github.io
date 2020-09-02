@@ -1,0 +1,52 @@
+﻿<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>Fire Emblem Fates Skill Tree Shuffler</title>
+    <link rel="stylesheet" href="app.css" type="text/css" />
+    <script src="jquery-3.1.0.min.js"></script>
+    <script src="WeaponType.js"></script>
+    <script src="Skill.js"></script>
+    <script src="FEClass.js"></script>
+    <script src="SkillAssignment.js"></script>
+    <script src="app.js"></script>
+</head>
+<body>
+    <h1 id="titleHeader">Fire Emblem Fates Skill Tree Shuffler</h1>
+
+    <div id="options">
+        <input type="checkbox" id="chkSurprise" /><label id="lblSurprise" for="chkSurprise">Surprise Mode (hide skills and reveal them as you earn them)</label><br />
+        <div id="divSkillSelection">
+            <div id="divDlcSkills">
+                <label for="selDlc" id="lblDlc">Include DLC?</label><select id="selDlc">
+                    <option id="optDlcNone" value="0" selected>None</option>
+                    <option id="optDlcSkills" value="1">Skills</option>
+                    <option id="optDlcClasses" value="2">Skills &amp; Classes</option>
+                </select><br />
+                <input type="checkbox" id="chkTakers" /><label id="lblTakers" for="chkTakers"><img src="Content/Images/Skills/lucktaker.png" />Include Stattaker skills</label>
+            </div>
+            <div id="divEnemySkills">
+                <label for="selEnemySkillLevel" id="lblEnemySkillLevel">Include Enemy Skills?</label><select id="selEnemySkillLevel">
+                    <option id="optNone" value="-1" selected>None</option>
+                    <option id="optFair" value="0">Fair</option>
+                    <option id="optPowerful" value="1">Powerful</option>
+                    <option id="optBroken" value="2">Broken</option>
+                </select><br />
+                <input type="checkbox" id="chkStaffSavant" /><label id="lblStaffSavant" for="chkStaffSavant"><img src="Content/Images/Skills/staff_savant.png" />Include "Staff Savant" skill</label>
+            </div>
+        </div>
+        <input type="checkbox" id="chkWeakSkills" /><label id="lblWeakSkills" for="chkWeakSkills">Exclude Weak Skills (requires enemy, DLC, or taker skills included)</label><br />
+        <button id="btnShuffle">Shuffle!</button>
+    </div>
+    <div id="keyContainer">
+        <label for="txaKey" id="lblTxaKey">Skill Tree Key:</label><br />
+        <textarea id="txaKey"></textarea><br />
+        <button id="btnLoadKey">Load from Key</button><br />
+        <span id="keyError"></span>
+    </div>
+    <div id="skillTree">
+
+    </div>
+</body>
+</html>

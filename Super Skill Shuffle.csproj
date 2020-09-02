@@ -1,0 +1,247 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\TypeScript\Microsoft.TypeScript.Default.props" Condition="Exists('$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\TypeScript\Microsoft.TypeScript.Default.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <ProjectGuid>{41FEEDF1-0116-4E3B-8B20-5A766906BC17}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <OutputPath>bin</OutputPath>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <DebugType>full</DebugType>
+    <DebugSymbols>true</DebugSymbols>
+    <TypeScriptToolsVersion>1.8</TypeScriptToolsVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+  </PropertyGroup>
+  <ItemGroup>
+    <Service Include="{4A0DDDB5-7A95-4FBF-97CC-616D07737A77}" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="app.css" />
+    <Content Include="Content\Images\Skills\aegis.png" />
+    <Content Include="Content\Images\Skills\aether.png" />
+    <Content Include="Content\Images\Skills\aggressor.png" />
+    <Content Include="Content\Images\Skills\air_superiority.png" />
+    <Content Include="Content\Images\Skills\amaterasu.png" />
+    <Content Include="Content\Images\Skills\aptitude.png" />
+    <Content Include="Content\Images\Skills\armored_blow.png" />
+    <Content Include="Content\Images\Skills\armor_shield.png" />
+    <Content Include="Content\Images\Skills\astra.png" />
+    <Content Include="Content\Images\Skills\awakening.png" />
+    <Content Include="Content\Images\Skills\axebreaker.png" />
+    <Content Include="Content\Images\Skills\axefaire.png" />
+    <Content Include="Content\Images\Skills\beastbane.png" />
+    <Content Include="Content\Images\Skills\beast_shield.png" />
+    <Content Include="Content\Images\Skills\better_odds.png" />
+    <Content Include="Content\Images\Skills\bold_stance.png" />
+    <Content Include="Content\Images\Skills\bowbreaker.png" />
+    <Content Include="Content\Images\Skills\bowfaire.png" />
+    <Content Include="Content\Images\Skills\camaraderie.png" />
+    <Content Include="Content\Images\Skills\certain_blow.png" />
+    <Content Include="Content\Images\Skills\charm.png" />
+    <Content Include="Content\Images\Skills\clarity.png" />
+    <Content Include="Content\Images\Skills\counter.png" />
+    <Content Include="Content\Images\Skills\countermagic.png" />
+    <Content Include="Content\Images\Skills\dancing_blade.png" />
+    <Content Include="Content\Images\Skills\darting_blow.png" />
+    <Content Include="Content\Images\Skills\death_blow.png" />
+    <Content Include="Content\Images\Skills\defender.png" />
+    <Content Include="Content\Images\Skills\defensetaker.png" />
+    <Content Include="Content\Images\Skills\defense_2.png" />
+    <Content Include="Content\Images\Skills\demoiselle.png" />
+    <Content Include="Content\Images\Skills\divine_shield.png" />
+    <Content Include="Content\Images\Skills\draconic_hex.png" />
+    <Content Include="Content\Images\Skills\dragonskin.png" />
+    <Content Include="Content\Images\Skills\dragon_fang.png" />
+    <Content Include="Content\Images\Skills\dragon_ward.png" />
+    <Content Include="Content\Images\Skills\dual_guarder.png" />
+    <Content Include="Content\Images\Skills\dual_striker.png" />
+    <Content Include="Content\Images\Skills\duelists_blow.png" />
+    <Content Include="Content\Images\Skills\elbow_room.png" />
+    <Content Include="Content\Images\Skills\evenhanded.png" />
+    <Content Include="Content\Images\Skills\even_better.png" />
+    <Content Include="Content\Images\Skills\even_keel.png" />
+    <Content Include="Content\Images\Skills\foreign_princess.png" />
+    <Content Include="Content\Images\Skills\future_sight.png" />
+    <Content Include="Content\Images\Skills\galeforce.png" />
+    <Content Include="Content\Images\Skills\gamble.png" />
+    <Content Include="Content\Images\Skills\gentilhomme.png" />
+    <Content Include="Content\Images\Skills\golembane.png" />
+    <Content Include="Content\Images\Skills\good_fortune.png" />
+    <Content Include="Content\Images\Skills\grisly_wound.png" />
+    <Content Include="Content\Images\Skills\heartseeker.png" />
+    <Content Include="Content\Images\Skills\heavy_blade.png" />
+    <Content Include="Content\Images\Skills\hit_avo_10.png" />
+    <Content Include="Content\Images\Skills\hit_avo_20.png" />
+    <Content Include="Content\Images\Skills\hoshidan_unity.png" />
+    <Content Include="Content\Images\Skills\hp_5.png" />
+    <Content Include="Content\Images\Skills\ignis.png" />
+    <Content Include="Content\Images\Skills\immobilize.png" />
+    <Content Include="Content\Images\Skills\immune_status.png" />
+    <Content Include="Content\Images\Skills\inevitable_end.png" />
+    <Content Include="Content\Images\Skills\inspiration.png" />
+    <Content Include="Content\Images\Skills\inspiring_song.png" />
+    <Content Include="Content\Images\Skills\iron_will.png" />
+    <Content Include="Content\Images\Skills\lancebreaker.png" />
+    <Content Include="Content\Images\Skills\lancefaire.png" />
+    <Content Include="Content\Images\Skills\lethality.png" />
+    <Content Include="Content\Images\Skills\lifetaker.png" />
+    <Content Include="Content\Images\Skills\life_and_death.png" />
+    <Content Include="Content\Images\Skills\live_to_serve.png" />
+    <Content Include="Content\Images\Skills\locktouch.png" />
+    <Content Include="Content\Images\Skills\lucktaker.png" />
+    <Content Include="Content\Images\Skills\lucky_seven.png" />
+    <Content Include="Content\Images\Skills\luck_4.png" />
+    <Content Include="Content\Images\Skills\luna.png" />
+    <Content Include="Content\Images\Skills\lunge.png" />
+    <Content Include="Content\Images\Skills\magictaker.png" />
+    <Content Include="Content\Images\Skills\magic_2.png" />
+    <Content Include="Content\Images\Skills\malefic_aura.png" />
+    <Content Include="Content\Images\Skills\miracle.png" />
+    <Content Include="Content\Images\Skills\mov_1.png" />
+    <Content Include="Content\Images\Skills\natural_cover.png" />
+    <Content Include="Content\Images\Skills\nobility.png" />
+    <Content Include="Content\Images\Skills\nohrian_trust.png" />
+    <Content Include="Content\Images\Skills\odd_shaped.png" />
+    <Content Include="Content\Images\Skills\opportunity_shot.png" />
+    <Content Include="Content\Images\Skills\paragon.png" />
+    <Content Include="Content\Images\Skills\pass.png" />
+    <Content Include="Content\Images\Skills\pavise.png" />
+    <Content Include="Content\Images\Skills\point_blank.png" />
+    <Content Include="Content\Images\Skills\poison_strike.png" />
+    <Content Include="Content\Images\Skills\potent_potion.png" />
+    <Content Include="Content\Images\Skills\profiteer.png" />
+    <Content Include="Content\Images\Skills\quick_draw.png" />
+    <Content Include="Content\Images\Skills\quick_salve.png" />
+    <Content Include="Content\Images\Skills\quixotic.png" />
+    <Content Include="Content\Images\Skills\rally_defense.png" />
+    <Content Include="Content\Images\Skills\rally_luck.png" />
+    <Content Include="Content\Images\Skills\rally_magic.png" />
+    <Content Include="Content\Images\Skills\rally_movement.png" />
+    <Content Include="Content\Images\Skills\rally_resistance.png" />
+    <Content Include="Content\Images\Skills\rally_skill.png" />
+    <Content Include="Content\Images\Skills\rally_spectrum.png" />
+    <Content Include="Content\Images\Skills\rally_speed.png" />
+    <Content Include="Content\Images\Skills\rally_strength.png" />
+    <Content Include="Content\Images\Skills\relief.png" />
+    <Content Include="Content\Images\Skills\rend_heaven.png" />
+    <Content Include="Content\Images\Skills\renewal.png" />
+    <Content Include="Content\Images\Skills\replicate.png" />
+    <Content Include="Content\Images\Skills\resistancetaker.png" />
+    <Content Include="Content\Images\Skills\resistance_2.png" />
+    <Content Include="Content\Images\Skills\resist_status.png" />
+    <Content Include="Content\Images\Skills\rifled_barrel.png" />
+    <Content Include="Content\Images\Skills\salvage_blow.png" />
+    <Content Include="Content\Images\Skills\savage_blow.png" />
+    <Content Include="Content\Images\Skills\seal_defense.png" />
+    <Content Include="Content\Images\Skills\seal_magic.png" />
+    <Content Include="Content\Images\Skills\seal_resistance.png" />
+    <Content Include="Content\Images\Skills\seal_speed.png" />
+    <Content Include="Content\Images\Skills\seal_strength.png" />
+    <Content Include="Content\Images\Skills\shadowgift.png" />
+    <Content Include="Content\Images\Skills\shelter.png" />
+    <Content Include="Content\Images\Skills\shove.png" />
+    <Content Include="Content\Images\Skills\shurikenbreaker.png" />
+    <Content Include="Content\Images\Skills\shurikenfaire.png" />
+    <Content Include="Content\Images\Skills\skilltaker.png" />
+    <Content Include="Content\Images\Skills\skill_2.png" />
+    <Content Include="Content\Images\Skills\sol.png" />
+    <Content Include="Content\Images\Skills\solidarity.png" />
+    <Content Include="Content\Images\Skills\speedtaker.png" />
+    <Content Include="Content\Images\Skills\speed_2.png" />
+    <Content Include="Content\Images\Skills\spendthrift.png" />
+    <Content Include="Content\Images\Skills\staff_savant.png" />
+    <Content Include="Content\Images\Skills\strengthtaker.png" />
+    <Content Include="Content\Images\Skills\strength_2.png" />
+    <Content Include="Content\Images\Skills\strong_riposte.png" />
+    <Content Include="Content\Images\Skills\surefooted.png" />
+    <Content Include="Content\Images\Skills\survey.png" />
+    <Content Include="Content\Images\Skills\swap.png" />
+    <Content Include="Content\Images\Skills\swordbreaker.png" />
+    <Content Include="Content\Images\Skills\swordfaire.png" />
+    <Content Include="Content\Images\Skills\tactical_advice.png" />
+    <Content Include="Content\Images\Skills\tomebreaker.png" />
+    <Content Include="Content\Images\Skills\tomefaire.png" />
+    <Content Include="Content\Images\Skills\toxic_brew.png" />
+    <Content Include="Content\Images\Skills\trample.png" />
+    <Content Include="Content\Images\Skills\underdog.png" />
+    <Content Include="Content\Images\Skills\vantage.png" />
+    <Content Include="Content\Images\Skills\vengeance.png" />
+    <Content Include="Content\Images\Skills\veteran_intuition.png" />
+    <Content Include="Content\Images\Skills\voice_of_peace.png" />
+    <Content Include="Content\Images\Skills\warding_blow.png" />
+    <Content Include="Content\Images\Skills\warp.png" />
+    <Content Include="Content\Images\Skills\wary_fighter.png" />
+    <Content Include="Content\Images\Skills\winged_shield.png" />
+    <Content Include="Content\Images\Skills\witchs_brew.png" />
+    <Content Include="Content\Images\WeaponTypes\axe.png" />
+    <Content Include="Content\Images\WeaponTypes\beaststone.png" />
+    <Content Include="Content\Images\WeaponTypes\bow.png" />
+    <Content Include="Content\Images\WeaponTypes\dragonstone.png" />
+    <Content Include="Content\Images\WeaponTypes\lance.png" />
+    <Content Include="Content\Images\WeaponTypes\shuriken.png" />
+    <Content Include="Content\Images\WeaponTypes\staff.png" />
+    <Content Include="Content\Images\WeaponTypes\sword.png" />
+    <Content Include="Content\Images\WeaponTypes\tome.png" />
+    <Content Include="index.html" />
+    <Content Include="jquery-3.1.0.min.js" />
+    <Content Include="web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <TypeScriptCompile Include="app.ts" />
+    <TypeScriptCompile Include="FEClass.ts" />
+    <TypeScriptCompile Include="jquery.d.ts" />
+    <TypeScriptCompile Include="SkillAssignment.ts" />
+    <TypeScriptCompile Include="WeaponType.ts" />
+    <TypeScriptCompile Include="Skill.ts" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="web.Debug.config">
+      <DependentUpon>web.config</DependentUpon>
+    </None>
+    <None Include="web.Release.config">
+      <DependentUpon>web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup />
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">12.0</VisualStudioVersion>
+  </PropertyGroup>
+  <PropertyGroup>
+    <RootNamespace>Super_Skill_Shuffle</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\WebApplications\Microsoft.WebApplication.targets" Condition="Exists('$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\WebApplications\Microsoft.WebApplication.targets')" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>53697</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:53697/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <PropertyGroup Condition="'$(Configuration)' == 'Debug'">
+    <TypeScriptRemoveComments>false</TypeScriptRemoveComments>
+    <TypeScriptSourceMap>true</TypeScriptSourceMap>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)' == 'Release'">
+    <TypeScriptRemoveComments>true</TypeScriptRemoveComments>
+    <TypeScriptSourceMap>false</TypeScriptSourceMap>
+  </PropertyGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\TypeScript\Microsoft.TypeScript.targets" Condition="Exists('$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\TypeScript\Microsoft.TypeScript.targets')" />
+</Project>

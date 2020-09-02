@@ -1,0 +1,131 @@
+﻿body {
+    font-family: 'Segoe Ui', sans-serif;
+}
+
+#titleHeader {
+    font-family: 'Constantia', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#txaKey {
+    width: 540px;
+    height: 270px;
+}
+
+#btnLoadKey {
+    margin-top: 4px;
+    margin-bottom: 10px;
+}
+
+input[type=checkbox] {
+    padding-left: 4px;
+    padding-right: 4px;
+}
+
+select {
+    margin-left: 6px;
+    margin-right: 6px;
+}
+
+.hide-skill {
+    font-style: italic;
+    background-color: #BBBBBB;
+    color: #444444;
+}
+
+.classContainer {
+    width: 300px;
+    min-height: 300px;
+    border: 3px groove black;
+}
+
+.classHeader {
+    font-weight: bold;
+    font-size: large;
+    font-family: 'Constantia', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-right: 8px;
+}
+
+.weaponTypeImage {
+    padding-left: 4px;
+    padding-right: 2px;
+}
+
+.skillImage {
+    padding-bottom: -4px;
+}
+
+.skill-level {
+    padding-right: 14px;
+    font-weight: bold;
+}
+
+/* Level 1 Skills */
+.skill-type0 .show-skill {
+    background-color: #99f19c
+}
+
+/* Level 10 Skills */
+.skill-type1 .show-skill {
+    background-color: #c8e555
+}
+
+/* Level P5 Skills */
+.skill-type2 .show-skill {
+    background-color: #e9ac40
+}
+
+/* Level P15 Skills */
+.skill-type3 .show-skill {
+    background-color: #ef9595
+}
+
+/* Enemy Skills */
+.skill-type4 .show-skill
+{
+    background-color: #7cd4da
+}
+
+/* DLC Item Skills */
+.skill-type5 .show-skill,
+.skill-type7 .show-skill
+{
+    background-color: #9e75e8
+}
+
+/* DLC Class Skills */
+.skill-type6 .show-skill
+{
+    background-color: #d3a1eb
+}
+
+/* Taker Skills */
+.skill-type8 .show-skill,
+.skill-type9 .show-skill
+{
+    background-color: #eae6af
+}
+
+#skillTreeTable {
+    border: 8px groove black;
+}
+
+#divSkillSelection{
+    height: 40px;
+    width: 540px;
+}
+
+#divDlcSkills {
+    width: 250px;
+    float: left;
+    margin: 4px;
+    padding: 2px;
+    border: 4px solid #d3a1eb
+}
+
+#divEnemySkills {
+    width: 250px;
+    float: right;
+    margin: 4px;
+    padding: 2px;
+    border: 4px solid #7cd4da
+}
